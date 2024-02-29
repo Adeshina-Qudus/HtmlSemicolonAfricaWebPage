@@ -1,0 +1,276 @@
+#become{
+    position: relative;
+    top : 237px;
+    left: 170px;
+    font-size: 38px;
+    font-weight: 900;
+    font-stretch: expanded;
+    font-family: IBM Plex sans-serif;
+}
+#skill{
+    position: relative;
+    top:  255px;
+    left: 170px;
+    font-size: 19.8px;
+    color: rgb(57, 76, 92);
+    font-family : IBM Plex Sans;
+    font-weight: 200;
+}
+#bold{
+    color: red;
+}
+.rightHeader{
+    margin-left: 85px;
+    position:relative;
+}
+.header{   
+   float: right;
+   margin-right: -40px;
+   margin-top: -30px;
+   z-index: 1000;
+   height: 743px;
+} 
+#aboutUs,
+#swit,
+#start,
+#spons,
+#blog{
+    color: black;
+    position: relative;
+    display: inline;
+    left:  210px;
+    margin-left:85px;
+    text-decoration: none;
+}
+#companies{
+    display: inline;
+    margin-top: -280px;
+    float: right;
+    margin-right: -480px;
+    border: 2px solid;
+    padding: 12px;
+    width: 100px;
+    height: auto;
+    top: 45px;
+    text-align: center;
+    border-radius: 8px;
+    color: rgb(253, 221, 226);
+    background-color: rgb(254, 227, 231);
+    position: relative;
+}
+#applynow{
+    display: inline;
+    margin-top: -280px;
+    float: right;
+    margin-right: -690px;
+    border: 2px solid;
+    padding: 12px;
+    width: 100px;
+    height: auto;
+    top: 45px;
+    text-align: center;
+    border-radius: 8px;
+    color: rgb(227, 121, 121);
+    background-color: rgb(232, 75, 75);
+    position: relative;
+}
+#applynow1{
+    position: relative;
+    color: rgb(232, 78, 78);
+    display: inline;
+    background-color: rgb(232, 75, 75);
+    border: 3px solid;
+    padding: 12px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 130px ;
+    top: 255px;
+    box-sizing: border-box;
+    width: 300px;
+}
+#watchVideo{
+    position: relative;
+    color: rgb(250, 169, 169);
+    display: inline;
+    background-color: white;
+    border: 1px solid;
+    padding: 12px;
+    width: 190px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 50px ;
+    top: 255px;
+}
+#saying{
+    position: relative;
+    top: 445px;
+    left: 420px;
+    font-size: 35px;
+    font-weight: 300px;
+}
+#pos{
+    position: fixed;
+    z-index: 1000;
+}
+#covered{
+    position: relative;
+    top: -270px;
+    right: -400px;
+}
+#gotYou{
+    position: relative;
+    left: -250px;
+}
+#tut,
+#realWork,
+#market,
+#sw,
+#point,
+#up{
+    color: rgb(103, 43, 43);
+    font-size: larger;
+    font-size: 23px;
+}
+#mar{
+    position: relative;
+    right : -165px;
+    top: -270px;
+    font-size: larger;
+}
+#real{
+    position: relative;
+    right : -500px;
+    top: -470px;
+    font-size: larger;
+}
+#tution{
+    position: relative;
+    right: -850px;
+    top: -640px;
+}
+#it{
+    position: relative;
+    left: 300px;
+    top: -600px;
+    display: inline;
+}
+#swt{
+    position: relative;
+    right : -165px;
+    font-size: larger;
+    top:  -562px;
+}
+#access{
+    position: relative;
+    right: -507px;
+    font-size: larger;
+    top: -832px;
+}
+#st{
+    position: relative;
+    right: -860px;
+    top: -970px;
+    font-size: larger;
+}
+#train{
+    position: relative;
+    top: -552px ;
+    right: -140px;
+    z-index: 1000;
+}
+.back{
+    position: relative;
+    top: 106px;
+    height: 540px;
+    width: 1304px;
+    z-index: 1;
+}
+.train{
+    position: relative;
+    top:-430px;
+    float: right;
+    margin-right: 375px;
+}
+.foreverChild{
+    position: relative;
+    background-color: white;
+    border-radius: 30px;
+    width: 200px;
+}
+.jibola{
+    position: relative;
+    width: 200px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 10px ;
+}
+.ozi{
+    position: relative;
+    width: 200px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.Twitter{
+    position:relative;
+    width: 30px;
+    margin-left: -2px;
+    top: 10px;
+}
+#username{
+    position: relative;
+    margin-left: 110px;
+    bottom : 20px
+}
+.Head{
+    position: relative;
+    width: 55px;
+    bottom: -45px;
+    margin-left: 10px;
+    font-size: 70px;
+}
+#story{
+    position: relative;
+    margin-left: 20px;
+    text-size-adjust: 30px;
+    font-size: 18px;
+}
+
+/* for slides */
+.slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    top: -430px;
+    z-index: 1000;
+  }
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  .slide {
+    min-width: 100%; /* Each slide takes up the entire width of the slider */
+    display: flex; /* Arrange the content horizontally */
+  }
+  .slide div {
+    flex: 1; /* Each content div takes up equal space */
+    text-align :left;
+  }
+  #prevBtn, #nextBtn {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    z-index: 1;
+  }
+  #prevBtn {
+    left: 0;
+  }
+  #nextBtn {
+    right: 0;
+  }
